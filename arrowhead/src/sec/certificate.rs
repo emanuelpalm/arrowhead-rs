@@ -1,0 +1,1 @@
+pub struct Certificate(pub Box<[u8]>);

@@ -1,0 +1,1 @@
+pub struct PublicKey(pub Box<[u8]>);

@@ -1,0 +1,12 @@
+[package]
+name = "arrowhead"
+version = "0.1.0"
+license = "EPL-2.0"
+description = "Base library for writing systems compliant with the Eclipse Arrowhead core systems."
+homepage = "https://github.com/pinterop/arrowhead-rs/"
+repository = "https://github.com/pinterop/arrowhead-rs/"
+readme = "README.md"
+authors = ["Emanuel Palm"]
+edition = "2018"
+
+[dependencies]

@@ -1,0 +1,10 @@
+{
+  "name": "CertificateCreationResponseDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "certificate", "type": "string"},
+    {"name": "certificateType", "type": "CertificateType"},
+    {"name": "keyPairDTO", "type": "KeyPairDTO"},
+    {"name": "certificateFormat", "type": "string"}
+  ]
+}

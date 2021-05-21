@@ -1,0 +1,10 @@
+{
+  "name": "CertificateType",
+  "type": "enumerator",
+  "variants": [
+    "AH_ONBOARDING",
+    "AH_DEVICE",
+    "AH_SYSTEM",
+    "UNKNOWN"
+  ]
+}

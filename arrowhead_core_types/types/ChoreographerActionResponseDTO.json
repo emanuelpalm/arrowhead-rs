@@ -1,0 +1,13 @@
+{
+  "name": "ChoreographerActionResponseDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "id", "type": "long"},
+    {"name": "name", "type": "string"},
+    {"name": "nextActionName", "type": "string"},
+    {"name": "steps", "type": "list", "arguments": ["ChoreographerStepResponseDTO"]},
+    {"name": "firstStepNames", "type": "list", "arguments": ["string"]},
+    {"name": "createdAt", "type": "string"},
+    {"name": "updatedAt", "type": "string"}
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "CertificateCreationRequestDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "commonName", "type": "string"},
+    {"name": "keyPairDTO", "type": "KeyPairDTO"}
+  ]
+}

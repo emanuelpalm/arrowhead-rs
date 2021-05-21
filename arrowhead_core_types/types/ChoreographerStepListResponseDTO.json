@@ -1,0 +1,8 @@
+{
+  "name": "ChoreographerStepListResponseDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "data", "type": "list", "arguments": ["ChoreographerStepResponseDTO"]},
+    {"name": "count", "type": "s64"}
+  ]
+}

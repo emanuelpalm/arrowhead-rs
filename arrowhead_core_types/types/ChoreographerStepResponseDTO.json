@@ -1,0 +1,15 @@
+{
+  "name": "ChoreographerStepResponseDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "id", "type": "s64"},
+    {"name": "name", "type": "string"},
+    {"name": "serviceName", "type": "string"},
+    {"name": "metadata", "type": "string"},
+    {"name": "parameters", "type": "string"},
+    {"name": "quantity", "type": "s32"},
+    {"name": "nextSteps", "type": "List", "arguments": ["ChoreographerNextStepResponseDTO"]},
+    {"name": "createdAt", "type": "string"},
+    {"name": "updatedAt", "type": "string"}
+  ]
+}

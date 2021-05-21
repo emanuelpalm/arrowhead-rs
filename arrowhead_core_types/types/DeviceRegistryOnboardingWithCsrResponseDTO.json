@@ -1,0 +1,5 @@
+{
+  "name": "DeviceRegistryOnboardingWithCsrResponseDTO",
+  "type": "structure",
+  "extends": "DeviceRegistryOnboardingResponseDTO"
+}

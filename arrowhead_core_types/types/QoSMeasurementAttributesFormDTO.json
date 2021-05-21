@@ -1,0 +1,20 @@
+{
+  "name": "QoSMeasurementAttributesFormDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "serviceRegistryEntry", "type": "ServiceRegistryResponseDTO"},
+    {"name": "isProviderAvailable", "type": "boolean", "default": false},
+    {"name": "lastAccessAt", "type": "string", "is_optional": true},
+    {"name": "minResponseTime", "type": "s32", "is_optional": true},
+    {"name": "maxResponseTime", "type": "s32", "is_optional": true},
+    {"name": "meanResponseTimeWithTimeout", "type": "s32", "is_optional": true},
+    {"name": "meanResponseTimeWithoutTimeout", "type": "s32", "is_optional": true},
+    {"name": "jitterWithTimeout", "type": "s32", "is_optional": true},
+    {"name": "jitterWithoutTimeout", "type": "s32", "is_optional": true},
+    {"name": "sent", "type": "long"},
+    {"name": "received", "type": "long"},
+    {"name": "sentAll", "type": "long"},
+    {"name": "receivedAll", "type": "long"},
+    {"name": "lostPerMeasurementPercent", "type": "s32", "is_optional": true}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "DeviceRegistryResponseDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "id", "type": "s64"},
+    {"name": "device", "type": "DeviceResponseDTO"},
+    {"name": "endOfValidity", "type": "string"},
+    {"name": "metadata", "type": "map", "arguments": ["string", "string"]},
+    {"name": "version", "type": "s32"},
+    {"name": "createdAt", "type": "string"},
+    {"name": "updatedAt", "type": "string"}
+  ]
+}

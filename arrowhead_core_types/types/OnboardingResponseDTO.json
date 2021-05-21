@@ -1,0 +1,13 @@
+{
+  "name": "OnboardingResponseDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "deviceRegistry", "type": "ServiceEndpoint"},
+    {"name": "systemRegistry", "type": "ServiceEndpoint"},
+    {"name": "serviceRegistry", "type": "ServiceEndpoint"},
+    {"name": "orchestrationService", "type": "ServiceEndpoint"},
+    {"name": "onboardingCertificate", "type": "CertificateCreationResponseDTO"},
+    {"name": "intermediateCertificate", "type": "string"},
+    {"name": "rootCertificate", "type": "string"}
+  ]
+}

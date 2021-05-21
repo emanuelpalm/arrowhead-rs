@@ -1,0 +1,7 @@
+{
+  "name": "EventTypeRequestDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "eventTypeName", "type": "string"}
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "DataManagerSystemsResponseDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "systems", "type": "list", "arguments": ["string"]}
+  ]
+}

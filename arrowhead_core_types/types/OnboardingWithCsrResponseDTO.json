@@ -1,0 +1,5 @@
+{
+  "name": "OnboardingWithCsrResponseDTO",
+  "type": "structure",
+  "extends": "OnboardingResponseDTO"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "EventPublishRequestDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "eventType", "type": "string"},
+    {"name": "source", "type": "SystemRequestDTO"},
+    {"name": "metaData", "type": "map", "arguments": ["string", "string"], "is_optional": true},
+    {"name": "payload", "type": "string"},
+    {"name": "timeStamp", "type": "string", "is_optional": true}
+  ]
+}

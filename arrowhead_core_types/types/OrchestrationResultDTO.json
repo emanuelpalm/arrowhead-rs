@@ -1,0 +1,15 @@
+{
+  "name": "OrchestrationResultDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "provider", "type": "SystemResponseDTO"},
+    {"name": "service", "type": "ServiceDefinitionResponseDTO"},
+    {"name": "serviceUri", "type": "string", "is_optional": true},
+    {"name": "secure", "type": "ServiceSecurityType", "is_optional": true},
+    {"name": "metadata", "type": "map", "arguments": ["string", "string"], "is_optional": true},
+    {"name": "interfaces", "type": "list", "arguments": ["ServiceInterfaceResponseDTO"]},
+    {"name": "version", "type": "s32", "is_optional": true},
+    {"name": "authorizationTokens", "type": "map", "arguments": ["string", "string"], "is_optional": true},
+    {"name": "warnings", "type": "list", "arguments": ["OrchestratorWarnings"], "is_optional": true}
+  ]
+}

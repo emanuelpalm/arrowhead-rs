@@ -1,0 +1,10 @@
+{
+  "name": "DeviceRegistryRequestDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "device", "type": "DeviceRequestDTO", "is_optional": true},
+    {"name": "endOfValidity", "type": "string", "is_optional": true},
+    {"name": "metadata", "type": "map", "arguments": ["string", "string"], "is_optional": true},
+    {"name": "version", "type": "s32", "is_optional": true}
+  ]
+}

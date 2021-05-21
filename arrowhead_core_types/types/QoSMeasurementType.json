@@ -1,0 +1,9 @@
+{
+  "name": "QoSMeasurementType",
+  "type": "enumerator",
+  "value_type": "string",
+  "values": [
+    {"name": "Ping", "value": "PING"},
+    {"name": "RelayEcho", "value": "RELAY_ECHO"}
+  ]
+}

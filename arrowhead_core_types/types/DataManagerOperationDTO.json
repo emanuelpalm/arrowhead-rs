@@ -1,0 +1,9 @@
+{
+  "name": "DataManagerOperationDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "op", "type": "string"},
+    {"name": "serviceName", "type": "string"},
+    {"name": "serviceType", "type": "string"}
+  ]
+}

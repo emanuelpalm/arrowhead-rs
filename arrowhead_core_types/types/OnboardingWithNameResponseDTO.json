@@ -1,0 +1,5 @@
+{
+  "name": "OnboardingWithNameResponseDTO",
+  "type": "structure",
+  "extends": "OnboardingResponseDTO"
+}

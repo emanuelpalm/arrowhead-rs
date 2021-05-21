@@ -1,0 +1,12 @@
+{
+  "name": "OrchestratorWarnings",
+  "type": "enumerator",
+  "value_type": "string",
+  "values": [
+    {"name": "FromOtherCloud", "value": "FROM_OTHER_CLOUD"},
+    {"name": "TtlExpiring", "value": "TTL_EXPIRING"},
+    {"name": "TtlExpired", "value": "TTL_EXPIRED"},
+    {"name": "TtlUnknown", "value": "TTL_UNKNOWN"},
+    {"name": "ViaGateway", "value": "VIA_GATEWAY"}
+  ]
+}

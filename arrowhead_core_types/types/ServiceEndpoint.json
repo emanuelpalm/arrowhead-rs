@@ -1,0 +1,8 @@
+{
+  "name": "ServiceEndpoint",
+  "type": "structure",
+  "properties": [
+    {"name": "system", "type": "CoreSystemService"},
+    {"name": "uri", "type": "string"}
+  ]
+}

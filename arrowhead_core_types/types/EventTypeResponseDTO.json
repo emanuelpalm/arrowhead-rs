@@ -1,0 +1,10 @@
+{
+  "name": "EventTypeResponseDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "id", "type": "s64"},
+    {"name": "eventTypeName", "type": "string"},
+    {"name": "createdAt", "type": "string"},
+    {"name": "updatedAt", "type": "string"}
+  ]
+}

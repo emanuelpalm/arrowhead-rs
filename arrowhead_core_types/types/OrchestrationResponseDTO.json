@@ -1,0 +1,7 @@
+{
+  "name": "OrchestrationResponseDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "response", "type": "list", "arguments": ["OrchestrationResultDTO"]}
+  ]
+}

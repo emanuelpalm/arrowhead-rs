@@ -1,0 +1,13 @@
+{
+  "name": "CloudRequestDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "operator", "type": "string", "is_optional": true},
+    {"name": "name", "type": "string", "is_optional": true},
+    {"name": "secure", "type": "boolean", "is_optional": true},
+    {"name": "neighbor", "type": "boolean", "is_optional": true},
+    {"name": "authenticationInfo", "type": "string", "is_optional": true},
+    {"name": "gatekeeperRelayIds", "type": "list", "arguments": ["s64"], "is_optional": true},
+    {"name": "gatewayRelayIds", "type": "list", "arguments": ["s64"], "is_optional": true}
+  ]
+}

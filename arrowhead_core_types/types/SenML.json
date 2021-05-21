@@ -1,0 +1,21 @@
+{
+  "name": "SenML",
+  "type": "structure",
+  "properties": [
+    {"name": "bn", "type": "string", "is_optional": true},
+    {"name": "bt", "type": "f64", "is_optional": true},
+    {"name": "bu", "type": "string", "is_optional": true},
+    {"name": "bv", "type": "f64", "is_optional": true},
+    {"name": "bs", "type": "f64", "is_optional": true},
+    {"name": "bver", "type": "s16", "is_optional": true},
+    {"name": "n", "type": "string", "is_optional": true},
+    {"name": "u", "type": "string", "is_optional": true},
+    {"name": "v", "type": "f64", "is_optional": true},
+    {"name": "vs", "type": "string", "is_optional": true},
+    {"name": "vb", "type": "boolean", "is_optional": true},
+    {"name": "vd", "type": "string", "is_optional": true},
+    {"name": "s", "type": "f64", "is_optional": true},
+    {"name": "t", "type": "f64", "is_optional": true},
+    {"name": "ut", "type": "f64", "is_optional": true}
+  ]
+}

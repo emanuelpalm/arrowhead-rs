@@ -1,0 +1,15 @@
+{
+  "name": "ExceptionType",
+  "type": "enumerator",
+  "value_type": "string",
+  "values": [
+    {"name": "Arrowhead", "value": "ARROWHEAD"},
+    {"name": "Auth", "value": "AUTH"},
+    {"name": "BadPayload", "value": "BAD_PAYLOAD"},
+    {"name": "InvalidParameter", "value": "INVALID_PARAMETER"},
+    {"name": "DataNotFound", "value": "DATA_NOT_FOUND"},
+    {"name": "Timeout", "value": "TIMEOUT"},
+    {"name": "Generic", "value": "GENERIC"},
+    {"name": "Unavailable", "value": "UNAVAILABLE"}
+  ]
+}

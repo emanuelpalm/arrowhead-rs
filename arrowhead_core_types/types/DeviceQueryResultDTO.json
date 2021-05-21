@@ -1,0 +1,8 @@
+{
+  "name": "DeviceQueryResultDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "deviceQueryData", "type": "list", "arguments": ["DeviceRegistryResponseDTO"]},
+    {"name": "unfilteredHits", "type": "s32", "default": 0}
+  ]
+}

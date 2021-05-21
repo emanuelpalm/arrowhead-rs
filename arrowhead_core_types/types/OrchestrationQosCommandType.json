@@ -1,0 +1,8 @@
+{
+  "name": "OrchestrationQosCommandType",
+  "type": "enumerator",
+  "value_type": "string",
+  "values": [
+    {"name": "Exclusivity", "value": "qosExclusivity"}
+  ]
+}

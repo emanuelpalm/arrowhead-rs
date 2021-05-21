@@ -1,10 +1,11 @@
 {
   "name": "CertificateType",
   "type": "enumerator",
-  "variants": [
-    "AH_ONBOARDING",
-    "AH_DEVICE",
-    "AH_SYSTEM",
-    "UNKNOWN"
+  "value_type": "string",
+  "values": [
+    {"name": "Onboarding", "value": "AH_ONBOARDING"},
+    {"name": "Device", "value": "AH_DEVICE"},
+    {"name": "System", "value": "AH_SYSTEM"},
+    {"name": "Unknown", "value": "UNKNOWN"}
   ]
 }

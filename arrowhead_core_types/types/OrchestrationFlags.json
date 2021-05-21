@@ -1,0 +1,15 @@
+{
+  "name": "OrchestrationFlags",
+  "type": "structure",
+  "properties": [
+    {"name": "matchmaking", "type": "boolean", "is_optional": true},
+    {"name": "metadataSearch", "type": "boolean", "is_optional": true},
+    {"name": "onlyPreferred", "type": "boolean", "is_optional": true},
+    {"name": "pingProviders", "type": "boolean", "is_optional": true},
+    {"name": "overrideStore", "type": "boolean", "is_optional": true},
+    {"name": "triggerInterCloud", "type": "boolean", "is_optional": true},
+    {"name": "externalServiceRequest", "type": "boolean", "is_optional": true},
+    {"name": "enableInterCloud", "type": "boolean", "is_optional": true},
+    {"name": "enableQoS", "type": "boolean", "is_optional": true}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "ChoreographerPlanResponseDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "id", "type": "s64"},
+    {"name": "name", "type": "string"},
+    {"name": "firstActionName", "type": "string"},
+    {"name": "actions", "type": "list", "arguments": ["ChoreographerActionResponseDTO"]},
+    {"name": "createdAt", "type": "string"},
+    {"name": "updatedAt", "type": "string"}
+  ]
+}

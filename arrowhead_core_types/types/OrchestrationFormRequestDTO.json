@@ -1,0 +1,13 @@
+{
+  "name": "OrchestrationFormRequestDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "requesterSystem", "type": "SystemRequestDTO", "is_optional": true},
+    {"name": "requesterCloud", "type": "CloudRequestDTO", "is_optional": true},
+    {"name": "requestedService", "type": "ServiceQueryFormDTO", "is_optional": true},
+    {"name": "orchestrationFlags", "type": "OrchestrationFlags", "is_optional": true},
+    {"name": "preferredProviders", "type": "list", "arguments": ["PreferredProviderDataDTO"], "is_optional": true},
+    {"name": "commands", "type": "map", "arguments": ["OrchestrationQosCommandType", "string"], "is_optional": true},
+    {"name": "qosRequirements", "type": "map", "arguments": ["OrchestrationQosRequirementType", "string"], "is_optional": true}
+  ]
+}

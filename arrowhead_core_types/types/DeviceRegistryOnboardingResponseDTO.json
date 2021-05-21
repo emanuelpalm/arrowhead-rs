@@ -1,0 +1,7 @@
+{
+  "name": "DeviceRegistryOnboardingResponseDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "certificateResponse", "type": "CertificateCreationResponseDTO"}
+  ]
+}

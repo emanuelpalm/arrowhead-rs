@@ -1,0 +1,10 @@
+{
+  "name": "QoSMeasurementStatus",
+  "type": "enumerator",
+  "value_type": "string",
+  "values": [
+    {"name": "New", "value": "NEW"},
+    {"name": "Pending", "value": "PENDING"},
+    {"name": "Finished", "value": "FINISHED"}
+  ]
+}

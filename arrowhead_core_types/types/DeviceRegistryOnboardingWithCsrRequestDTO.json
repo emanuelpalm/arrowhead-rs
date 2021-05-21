@@ -1,0 +1,7 @@
+{
+  "name": "DeviceRegistryOnboardingWithCsrRequestDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "certificateSigningRequest", "type": "string"}
+  ]
+}

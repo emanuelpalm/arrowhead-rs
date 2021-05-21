@@ -1,0 +1,10 @@
+{
+  "name": "ServiceInterfaceResponseDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "id", "type": "s64"},
+    {"name": "interfaceName", "type": "string"},
+    {"name": "createdAt", "type": "string"},
+    {"name": "updatedAt", "type": "string"}
+  ]
+}

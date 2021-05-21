@@ -1,0 +1,8 @@
+{
+  "name": "ChoreographerSessionRunningStepDataDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "sessionId", "type": "s64"},
+    {"name": "runningStepId", "type": "s64"}
+  ]
+}

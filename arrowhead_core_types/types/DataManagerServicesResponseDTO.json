@@ -1,0 +1,7 @@
+{
+  "name": "DataManagerServicesResponseDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "services", "type": "list", "arguments": ["string"]}
+  ]
+}

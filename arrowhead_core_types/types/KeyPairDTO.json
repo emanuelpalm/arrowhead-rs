@@ -1,0 +1,10 @@
+{
+  "name": "KeyPairDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "keyAlgorithm", "type": "string"},
+    {"name": "keyFormat", "type": "string"},
+    {"name": "publicKey", "type": "string"},
+    {"name": "privateKey", "type": "string"}
+  ]
+}

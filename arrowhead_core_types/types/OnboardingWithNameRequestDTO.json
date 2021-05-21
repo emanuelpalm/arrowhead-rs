@@ -1,0 +1,7 @@
+{
+  "name": "OnboardingWithNameRequestDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "creationRequestDTO", "type": "CertificateCreationRequestDTO"}
+  ]
+}

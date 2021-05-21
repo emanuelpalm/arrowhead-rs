@@ -1,0 +1,8 @@
+{
+  "name": "ChoreographerNextStepResponseDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "id", "type": "s64"},
+    {"name": "stepName", "type": "string"}
+  ]
+}

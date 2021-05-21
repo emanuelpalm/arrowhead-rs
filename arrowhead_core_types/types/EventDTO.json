@@ -1,0 +1,10 @@
+{
+  "name": "EventDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "eventType", "type": "string"},
+    {"name": "metaData", "type": "map", "arguments": ["string", "string"]},
+    {"name": "payload", "type": "string"},
+    {"name": "timeStamp", "type": "string"}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "OrchestrationQosRequirementType",
+  "type": "enumerator",
+  "value_type": "string",
+  "values": [
+    {"name": "MaxRespTimeThreshold", "value": "qosMaxRespTimeThreshold"},
+    {"name": "AvgRespTime", "value": "qosAvgRespTime"},
+    {"name": "JitterThreshold", "value": "qosJitterThreshold"},
+    {"name": "MaxRecentPacketLoss", "value": "qosMaxRecentPacketLoss"},
+    {"name": "MaxPacketLost", "value": "qosMaxPacketLost"}
+  ]
+}

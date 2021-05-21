@@ -1,0 +1,10 @@
+{
+  "name": "DeviceRequestDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "deviceName", "type": "string"},
+    {"name": "address", "type": "string"},
+    {"name": "macAddress", "type": "string"},
+    {"name": "authenticationInfo", "type": "string"}
+  ]
+}

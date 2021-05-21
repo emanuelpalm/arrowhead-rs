@@ -1,0 +1,13 @@
+{
+  "name": "DeviceQueryFormDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "deviceNameRequirements", "type": "string"},
+    {"name": "addressRequirement", "type": "string", "is_optional": true},
+    {"name": "macAddressRequirement", "type": "string", "is_optional": true},
+    {"name": "metadataRequirements", "type": "map", "arguments": ["string", "string"], "is_optional": true},
+    {"name": "versionRequirement", "type": "s32", "is_optional": true},
+    {"name": "minVersionRequirement", "type": "s32", "is_optional": true},
+    {"name": "maxVersionRequirement", "type": "s32", "is_optional": true}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ErrorMessageDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "errorMessage", "type": "string"},
+    {"name": "errorCode", "type": "s32"},
+    {"name": "exceptionType", "type": "ExceptionType"},
+    {"name": "origin", "type": "string"}
+  ]
+}

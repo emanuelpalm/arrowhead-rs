@@ -1,0 +1,13 @@
+{
+  "name": "DeviceResponseDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "id", "type": "s64"},
+    {"name": "deviceName", "type": "string"},
+    {"name": "address", "type": "string"},
+    {"name": "macAddress", "type": "string"},
+    {"name": "authenticationInfo", "type": "string"},
+    {"name": "createdAt", "type": "string"},
+    {"name": "updatedAt", "type": "string"}
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "PreferredProviderDataDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "providerSystem", "type": "SystemRequestDTO"},
+    {"name": "providerCloud", "type": "CloudRequestDTO"}
+  ]
+}

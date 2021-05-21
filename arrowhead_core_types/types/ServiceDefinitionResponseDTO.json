@@ -1,0 +1,10 @@
+{
+  "name": "ServiceDefinitionResponseDTO",
+  "type": "structure",
+  "properties": [
+    {"name": "id", "type": "s64"},
+    {"name": "serviceDefinition", "type": "string"},
+    {"name": "createdAt", "type": "string"},
+    {"name": "updatedAt", "type": "string"}
+  ]
+}
